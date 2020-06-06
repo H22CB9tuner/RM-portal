@@ -1,0 +1,59 @@
+﻿<Skin name="Rick And Morty Portal">
+    <Information>
+        <Author>F20Bcb9</Author>
+        <Version>1</Version>
+        <Copyright>2020</Copyright>
+        <Skinner Name="UX Architect" Version="1.0c" />
+    </Information>
+    <Main Globe="False" Orb="False" Fog="False">
+        <Background EnableAudio="False">RM.wmv</Background>
+        <InfoFont>BookAntiqua-12.xpr</InfoFont>
+        <Text Top="401" Left="426" Width="146" Scroll="0" Color="0xFF000000" Source="DVDTitle" Align="Left" />
+        <Text Top="371" Left="427" Width="146" Scroll="0" Color="0xFF000000" Source="Date" Align="Left" />
+        <Text Top="354" Left="427" Width="146" Scroll="0" Color="0xFF000000" Source="Time" Align="Left" />
+        <Text Top="336" Left="427" Width="146" Scroll="0" Color="0xFF000000" Source="E_FreeMB" Align="Left" />
+        <Text Top="319" Left="427" Width="146" Scroll="0" Color="0xFF000000" Source="IP" Align="Left" />
+        <Text Top="301" Left="426" Width="148" Scroll="0" Color="0xFF000000" Source="CPUTempF" Align="Left" />
+        <Image Top="36" Left="426" Width="148" Height="108" Source="GameIcon" />
+        <Image Source="GamePreview" />
+        <Menu Align="left" ShowIcon="False" Rotate="True" ShowArrows="False">
+            <Preview EnableAudio="True" Top="36" Left="426" Width="148" Height="108" />
+            <Position Top="169" Left="335" Width="235" Height="120" Fixed="True" FixAt="1" MaxItem="3" />
+            <Font>Coprgtb-14.xpr</Font>
+        </Menu>
+        <ColorScheme>
+            <AMBIENT_FOGCOLOR>0x78FFFFFF</AMBIENT_FOGCOLOR>
+            <AMBIENT_SKYCOLOR>0xFF00000F</AMBIENT_SKYCOLOR>
+            <AMBIENT_CELLCOLOR>0x7800C000</AMBIENT_CELLCOLOR>
+            <CAPTION_TEXTCOLOR>0xFFEAEA47</CAPTION_TEXTCOLOR>
+            <CAPTION_BACKCOLOR>0xFF4274FF</CAPTION_BACKCOLOR>
+            <DIALOG_BORDERCOLOR>0xFFFFFFFF</DIALOG_BORDERCOLOR>
+            <DIALOG_BACKCOLOR>0xFF273CF3</DIALOG_BACKCOLOR>
+            <DIALOG_INNER_BORDERCOLOR>0xFFFFFFFF</DIALOG_INNER_BORDERCOLOR>
+            <DIALOG_INNER_BACKCOLOR>0xFF09389A</DIALOG_INNER_BACKCOLOR>
+            <DIALOG_TEXTCOLOR>0xFFFFFFFF</DIALOG_TEXTCOLOR>
+            <DIALOG_DISABLEDTEXT>0xFFB3B3B4</DIALOG_DISABLEDTEXT>
+            <OPTION_TEXTCOLOR>0xFFFFFFFF</OPTION_TEXTCOLOR>
+            <OPTION_ACTIVETEXTCOLOR>0xFF47EAEA</OPTION_ACTIVETEXTCOLOR>
+            <OPTION_ACTIVEBACKCOLOR>0xFF273CF3</OPTION_ACTIVEBACKCOLOR>
+            <BUTTON_BORDERCOLOR>0xFFFFFFFF</BUTTON_BORDERCOLOR>
+            <BUTTON_TEXTCOLOR>0xFFFFFFFF</BUTTON_TEXTCOLOR>
+            <BUTTON_BACKCOLOR>0xFF273CF3</BUTTON_BACKCOLOR>
+            <BUTTON_ACTIVETEXTCOLOR>0xFFFFFFFF</BUTTON_ACTIVETEXTCOLOR>
+            <BUTTON_ACTIVEBACKCOLOR>0xFF003399</BUTTON_ACTIVEBACKCOLOR>
+            <KB_KEYBG_HIGHLIGHT>0xFF0000FF</KB_KEYBG_HIGHLIGHT>
+            <KB_KEYBG_DISABLED>0x78C0C0C0</KB_KEYBG_DISABLED>
+            <KB_KEY_PRESSED>0xFF008000</KB_KEY_PRESSED>
+            <KB_KEY_NORMAL>0xFF000000</KB_KEY_NORMAL>
+            <KB_KEY_DISABLED>0xFFFFFFFF</KB_KEY_DISABLED>
+            <KB_KEY_ACTIVEBORDER>0xFFFF0000</KB_KEY_ACTIVEBORDER>
+            <KB_KEY_TEXTCOLOR>0xFF000000</KB_KEY_TEXTCOLOR>
+            <KB_KEY_TEXTBACKCOLOR>0xFFFFFFFF</KB_KEY_TEXTBACKCOLOR>
+            <KB_KEY_TEXTBORDERCOLOR>0x780000FF</KB_KEY_TEXTBORDERCOLOR>
+            <MENU_TEXTCOLOR>0xFF000000</MENU_TEXTCOLOR>
+            <MENU_ACTIVETEXTCOLOR>0xFFFFFFFF</MENU_ACTIVETEXTCOLOR>
+            <MENU_ACTIVEBACKCOLOR>0xFF000000</MENU_ACTIVEBACKCOLOR>
+            <MENU_ACTIVEBORDERCOLOR>0xFFFFFFFF</MENU_ACTIVEBORDERCOLOR>
+        </ColorScheme>
+    </Main>
+</Skin>
